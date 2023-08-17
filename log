@@ -1,0 +1,44 @@
+:"connected to WA Web"}
+{"level":30,"time":"2023-05-28T17:57:14.882Z","pid":20612,"hostname":"LAPTOP-B72DJ700","class":"baileys","node":{"passive":false,"userAgent":{"platform":"WEB","appVersion":{"primary":2,"secondary":2308,"tertiary":7},"mcc":"000","mnc":"000","osVersion":"0.1","manufacturer":"","device":"Desktop","osBuildNumber":"0.1","releaseChannel":"RELEASE","localeLanguageIso6391":"en","localeCountryIso31661Alpha2":"US"},"webInfo":{"webSubPlatform":"WEB_BROWSER"},"connectType":"WIFI_UNKNOWN","connectReason":"USER_ACTIVATED","devicePairingData":{"eRegid":"AAAAkQ==","eKeytype":"BQ==","eIdent":"fq+97spxUZaQwHfwiHm9oi7N79ArYD/bGsEedlJZkGg=","eSkeyId":"AAAB","eSkeyVal":"cSe7Jz44mDRxdRIXe9K9t1x9EebQF+3jezgvd72xpwM=","eSkeySig":"6jI0Kudveq2Ttm28YmiXIfUXyEMZw282PzuyYNuvQomBL58uE2SPoijWAQ7cxh0eBiTXOpCp/MpU/KJpZJVSCA==","buildHash":"AdliZ4YDhtOYOThArhABtg==","deviceProps":"CgIxNhIHCGAQABi4JBgBIAA="}},"msg":"not logged in, attempting registration..."}
+qr:   2@2GBlqSxz8G7JeC1qEAMGFVHKUutqzTccI2sXfX5KjuVF+bvjdjUsMXzg3OHIQdjzjRyFIo5P5J1cQQ==,XVsKroCoAMlVfXQsCeZBL40gPCtCr34m87zj2+RGWRM=,fq+97spxUZaQwHfwiHm9oi7N79ArYD/bGsEedlJZkGg=,3YfEgn5QoRVJysy9lNaiCtFFqOdvxazxurSI/jRetk0=
+session length undefined
+(node:20612) UnhandledPromiseRejectionWarning: Error: Bad data
+    at encode (D:\projects-data\node\app1-whisky\node_modules\qr-image\lib\encode.js:147:15)
+    at QR (D:\projects-data\node\app1-whisky\node_modules\qr-image\lib\qr-base.js:170:19)
+    at Object.qr_image_sync [as imageSync] (D:\projects-data\node\app1-whisky\node_modules\qr-image\lib\qr.js:85:18)
+    at Object.getQRCOde (D:\projects-data\node\app1-whisky\TTT\MongoClient.js:36:26)
+    at D:\projects-data\node\app1-whisky\server.js:13:21
+    at Layer.handle [as handle_request] (D:\projects-data\node\app1-whisky\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\projects-data\node\app1-whisky\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\projects-data\node\app1-whisky\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\projects-data\node\app1-whisky\node_modules\express\lib\router\layer.js:95:5)
+    at D:\projects-data\node\app1-whisky\node_modules\express\lib\router\index.js:284:15
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20612) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:20612) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+{"level":30,"time":"2023-05-28T17:58:00.803Z","pid":20612,"hostname":"LAPTOP-B72DJ700","class":"baileys","me":{"id":"94778575881:12@s.whatsapp.net","name":"Designspecs"},"platform":"smbi","msg":"pairing configured successfully, expect to restart the connection..."}
+qr:   undefined
+session length undefined
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+WAZIPER IS LIVE
+qr:   undefined
+session length undefined
+{"level":30,"time":"2023-05-28T17:58:03.323Z","pid":1960,"hostname":"LAPTOP-B72DJ700","class":"baileys","browser":["16","Chrome","96.0.4664.110"],"helloMsg":{"clientHello":{"ephemeral":"x8NOcG5JeVi3nWzGL69zMBzu9uqj9jV7acEKBbkE5HE="}},"msg":"connected to WA Web"}
+{"level":30,"time":"2023-05-28T17:58:03.690Z","pid":1960,"hostname":"LAPTOP-B72DJ700","class":"baileys","node":{"username":"94778575881","passive":true,"userAgent":{"platform":"WEB","appVersion":{"primary":2,"secondary":2308,"tertiary":7},"mcc":"000","mnc":"000","osVersion":"0.1","manufacturer":"","device":"Desktop","osBuildNumber":"0.1","releaseChannel":"RELEASE","localeLanguageIso6391":"en","localeCountryIso31661Alpha2":"US"},"webInfo":{"webSubPlatform":"WEB_BROWSER"},"connectType":"WIFI_UNKNOWN","connectReason":"USER_ACTIVATED","device":12},"msg":"logging in..."}
+
+session length undefined
+[nodemon] restarting due to changes...
+{
+  messages: [
+    {
+      key: [Object],
+      messageTimestamp: 1685297930,
+      pushName: 'Naveen Avishka',
+      broadcast: false,
+      message: [Message]
+    }
+  ],
+  type: 'notify'
+}

@@ -1,0 +1,60 @@
+Arguments: 
+  D:\softwares\node\node.exe C:\Users\navee\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @diwajshing/baileys
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\MinGW\mingw\bin;D:\softwares\flutter\bin;D:\softwares\java\bin;D:\softwares\java\dd\bin;D:\softwares\node\;C:\Users\navee\AppData\Roaming\npm\node_modules\yarn\bin;D:\softwares\xamp\php;C:\ProgramData\ComposerSetup\bin;D:\softwares\vs-sdk\Python37_64\Scripts;C:\chromedriver\;C:\Program Files\GitHub CLI\;D:\softwares\git\bin;D:\softwares\vs-sdk\Python37_64;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\navee\AppData\Local\Microsoft\WindowsApps;C:\Users\navee\AppData\Roaming\npm;D:\softwares\vscode\Microsoft VS Code\bin;C:\Users\navee\AppData\Roaming\Composer\vendor\bin;C:\ProgramData\navee\GitHubDesktop\bin;;C:\Program Files\Azure Data Studio\bin;C:\Users\navee\.dotnet\tools
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.5
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@diwajshing%2fbaileys: Not found
+      at Request.params.callback [as _callback] (C:\Users\navee\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66992:18)
+      at Request.self.callback (C:\Users\navee\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140763:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (C:\Users\navee\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141735:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (C:\Users\navee\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141657:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "app1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "devstart": "nodemon server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.2",
+      "mongoose": "^7.2.1",
+      "qr-image": "^3.2.0",
+      "qrcode": "^1.5.3",
+      "socket.io": "^4.6.1",
+      "whatsapp-web.js": "^1.20.0",
+      "wwebjs-mongo": "^1.1.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
