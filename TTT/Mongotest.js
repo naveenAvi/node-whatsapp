@@ -23,7 +23,7 @@ const Mongotest = {
     connect: async function(req, res, callback){
         // Load the session data
         console.log(process.env.MONGODB_URI)
-        await mongoose.connect(`mongodb+srv://gagstiny:mjqI6GlybVmpRZRl@cluster0.uxogzpu.mongodb.net/?retryWrites=true&w=majority`).then(() => {
+        await mongoose.connect().then(() => {
             const store = new MongoStore({ mongoose: mongoose });
             const client = new Client({
                 authStrategy: new RemoteAuth({
